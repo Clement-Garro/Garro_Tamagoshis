@@ -2,7 +2,7 @@
 
 ## Démarrer
 
-Un membre du groupe créé une divergence avec le nom
+Un membre du groupe crée une divergence (fork) avec le nom
 `r402-tp2-groupeX`. Assurez-vous que ce dépôt est accessible en
 lecture à l’enseignant chargé de TP, et en écriture à tous les membres
 du groupe.
