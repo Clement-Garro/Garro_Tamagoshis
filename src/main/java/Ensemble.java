@@ -11,6 +11,7 @@ public class Ensemble {
      * Construit un nouvel ensemble vide.
      */
     public Ensemble() {
+        throw new UnsupportedOperationException("méthode non implémentée");
     }
 
     /**
@@ -20,6 +21,7 @@ public class Ensemble {
      * @throws NullPointerException si la collection contient un élément <code>null</code>
      */
     public Ensemble(Collection<Object> objets) throws NullPointerException {
+        throw new UnsupportedOperationException("méthode non implémentée");
     }
 
     /**
@@ -28,7 +30,7 @@ public class Ensemble {
      * @return le nombre d'éléments distincts contenus dans l'ensemble
      */
     public int taille() {
-        return 0;
+        throw new UnsupportedOperationException("méthode non implémentée");
     }
 
     /**
@@ -38,7 +40,7 @@ public class Ensemble {
      * @return <code>true</code> si et seulement si l'ensemble contient un élément <code>x</code> tel que <code>o.equals(x)</code>.
      */
     public boolean contient(Object o) {
-        return false;
+        throw new UnsupportedOperationException("méthode non implémentée");
     }
 
     /**
@@ -49,7 +51,7 @@ public class Ensemble {
      * @throws NoSuchElementException si l'ensemble ne contient aucun élément
      */
     public Object element() throws NoSuchElementException {
-        return null;
+        throw new UnsupportedOperationException("méthode non implémentée");
     }
 
     /**
@@ -59,7 +61,7 @@ public class Ensemble {
      * @return un nouvel ensemble contenant tous les éléments distincts contenus dans cet ensemble ou dans <code>e</code>
      */
     public Ensemble union(Ensemble e) {
-        return null;
+        throw new UnsupportedOperationException("méthode non implémentée");
     }
 
 }
